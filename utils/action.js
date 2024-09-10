@@ -61,9 +61,6 @@ If you can't find info on the exact ${city}, or ${city} does not exist, or its p
 		if (!tourData.tour) {
 			return null;
 		}
-
-
-
 		return { tour: tourData.tour, tokens: response.usage.total_tokens };
 	} catch (error) {
 		console.log(error);

@@ -1,4 +1,4 @@
-import NewTour from '@/app/components/NewTour'
+import NewTour from '@/components/NewTour'
 import React from 'react'
 import { dehydrate, HydrationBoundary, QueryClient } from '@tanstack/react-query'
 
