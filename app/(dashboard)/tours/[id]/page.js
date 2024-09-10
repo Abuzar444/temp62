@@ -1,6 +1,6 @@
 import React from 'react';
-import TourInfo from '../../../components/Tourinfo';
-import { getSingleTour } from '../../../../utils/action';
+import TourInfo from '@/app/components/Tourinfo';
+import { getSingleTour } from '@/utils/action';
 import Image from 'next/image';
 import Link from 'next/link';
 import { redirect } from 'next/navigation';
